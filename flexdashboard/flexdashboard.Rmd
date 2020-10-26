@@ -1,0 +1,33 @@
+---
+title: "Untitled"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows #orientation: columns
+    vertical_layout: fill
+---
+
+Visualizations {data-icon="fa-signal"} 
+===================================== 
+    
+### Chart 1
+    
+```{r}
+```
+    
+### Chart 2
+
+```{r}
+```
+   
+Tables {data-icon="fa-table"}
+=====================================     
+
+### Table 1
+    
+```{r}
+```
+    
+### Table 2
+
+```{r}
+```
