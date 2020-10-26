@@ -27,14 +27,15 @@ drainage_cost <- function(ditch_length, construction_time, scraper_length,
   }
 }
 
-Rehabilitation_costs <- function(farmsize){
-  cost <- 200 * farmsize
+Rehabilitation_costs <- function(wetlandacre){
+  cost <- 200 * wetlandacre
   return(cost)
 }
 Maintenance_cost <- function(drainage_cost) {
   cost <- drainage_cost * 1.5
   return(cost)
 }
+
 NuisanceCost <- function(num_wland, farm_size, mach_op_cost){
   if (1 < num_wland < 3 & farm_size == 4) {
   cost <- mach_op_cost * 0.08

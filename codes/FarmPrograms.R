@@ -8,5 +8,4 @@ FarmPRograms <- function(P, Y,.__C__, r){
   
   main function for net-present value
   
-  
 }

@@ -5,8 +5,8 @@ PresentValueDrainage <- function(data, p_1, p_2, p_3, p_4, p_5, y_1, y_2, y_3, y
   source("") #all the individual functions for the elements of the FarmProgram function
   ...
   ...
-  
-  yearly_return <- 0.4*(((((p_1*y_1 + ci_1 + cais_1) - (ic_1 - mc_1)) + ((p_2*y_2 + ci_2 + cais_2) - (ic_2 - mc_2)) + 
+  #ci_1 = cost of inputs in first year
+  yearly_return <- 0.4*(((((p_1*y_1 + ci_1 + cais_1) - (ci_1 - mc_1)) + ((p_2*y_2 + ci_2 + cais_2) - (ic_2 - mc_2)) + 
     ((p_3*y_3 + ci_3 + cais_3) - (ic_3- mc_3)) + ((p_4*y_4 + ci_4 + cais_4) - ( ic_4 - mc_4))                       +
     ((p_1*y_5 + ci_5 + cais_5) - (ic_5 - mc_5)))/17)/n)
   

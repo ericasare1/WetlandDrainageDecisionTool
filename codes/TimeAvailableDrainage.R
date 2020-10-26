@@ -28,3 +28,4 @@ for (i in 2:n) {
 }
 ###################################
 sum_workdays(n = 31, unc_wd_prob = 0.68, cond_wd_prob = 0.8)
+

@@ -32,7 +32,7 @@ CAIS_withdrawal <- function(RM, PM){
   return(withdrawal)
 }
 
-
+#Crop insurance is paid if yield is less than program yield (farmyd)
 crop_insurance <- function(yd, farmyd) {
   farmyd <- yd * 0.1 + farmyd(i - 1)*0.9  #refine it well
  if (yd < 0.7*farmyd) {
