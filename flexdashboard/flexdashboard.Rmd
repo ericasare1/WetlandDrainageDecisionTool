@@ -4,6 +4,7 @@ output:
   flexdashboard::flex_dashboard:
     orientation: rows #orientation: columns
     vertical_layout: fill
+runtime: shiny
 ---
 
 Visualizations {data-icon="fa-signal"} 
